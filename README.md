@@ -2,6 +2,12 @@
 
 Another JS is a little library which define alternative sources for your links. 
 
+#### Install with Bower
+
+``` 
+bower install another
+```
+
 #### Easy Integration
 
   - Include jQuery (1.11.3)
