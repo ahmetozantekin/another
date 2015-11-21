@@ -1,6 +1,8 @@
 # Another JS
 
 Another JS is a little library which define alternative sources for your links. 
+When your ```href``` target is down or fail because of somethings, ```another``` automatically route to ```data-another``` target.
+
 
 #### Install with Bower
 
@@ -38,6 +40,5 @@ bower install another
 	</script>
 ```
 
-When your ```href``` target is down or fail because of somethings, ```another``` automatically route to ```data-another``` target.
 
 
