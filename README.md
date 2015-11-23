@@ -6,7 +6,7 @@ When your ```href``` target is down or fail because of somethings, ```another```
 
 #### Install with Bower
 
-``` 
+```bash
 bower install another
 ```
 
@@ -19,7 +19,7 @@ bower install another
 
 #### Step 1: Include JS Files into your HTML
 
-```
+```html
     <head>
         <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
 	    <script src="another.js"></script>
@@ -27,17 +27,17 @@ bower install another
 ```
 
 #### Step 2: Add attribute to your link element
-```
+```html
     <a href="zutturubut.pig" data-another="http://google.com">It's my cool link text</a>
 ```
 
 #### Step 3: Activate plugin for  element in JS
-```
+```javascript
 <script>
-		$(function() {
-			$('a').another();
-		})
-	</script>
+	$(function() {
+		$('a').another();
+	})
+</script>
 ```
 
 
